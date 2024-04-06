@@ -11,7 +11,7 @@ test("Test salesforce login", async () => {
 
     await page.goto("https://login.salesforce.com/")
     await page.fill('#username', 'kumareshpbe@gmail.com')
-    await page.fill('#password', 'Raani@26')
+    await page.fill('#password', 'testleaf@01')
     await page.click("#Login")
     await page.waitForTimeout(10000)
 
